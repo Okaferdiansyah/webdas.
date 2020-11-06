@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Contoh form pendaftaran</title>
+	<style>
+	body{
+			background : url('foto/udinus1.png');
+			background-repeat:no-repeat;
+			background-size:20% 35%;
+			background-position:auto;
+			
+	}
+	fieldset{
+			align: center;
+			width: 800px; /* lebar */
+			margin:auto;
+			border-color: lightblue; /* warna garis tepi */
+			box-shadow: 7px 7px 4px #333; /* bayangan */
+		}
+	</style>
+</head>
+<body>
+	<fieldset>
+    <h1 style="color:blue;font-family:sans"><center>Pendaftaran</center></h1>
+    <hr width="20%" align="center">
+    <p align="center">Isilah seluruh kolom registrasi dengan <br />data yang benar.</p>
+    <table align="center">
+    	<tr>
+    	    <td valign="top">Nama</td>
+    	    <td><input type="text" name="nama" placeholder="Masukan nama anda"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Username</td>
+    	    <td><input type="text" name="username" placeholder="Masukan username"></td>
+    	</tr>
+    	<tr>
+               <td valign="top">Password</td>
+               <td><input type="password" name="password" placeholder="Password"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Email</td>
+    	    <td><input type="email" name="email" placeholder="Masukan email"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="l">Pria<br />
+    	    	<input type="radio" name="p">Perempuan
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Tanggal Lahir</td>
+    	    <td>
+    	       <input type="text" style="width: 25px" placeholder="dd">
+    	       <input type="text" style="width: 25px" placeholder="mm">
+    	       <input type="text" style="width: 50px" placeholder="yyyy">
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Negara</td>
+    	    <td><input type="text" name="negara" placeholder="Negara tempat tinggal"></td>
+    	</tr>
+		<tr>
+    	    <td valign="top">Kota</td>
+    	    <td><input type="text" name="negara" placeholder="kota tempat tinggal"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Biografi</td>
+    	    <td><textarea placeholder="isilah biografi singkat anda" cols="30" rows="5"></textarea></td>
+    	</tr>
+    	<tr>
+    	   <td colspan="2"><input type="submit" value="Simpan"></td>
+    	</tr>
+		</fieldset>
+    </table>
+</body>
+</html>
