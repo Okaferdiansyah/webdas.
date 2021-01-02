@@ -1,0 +1,1 @@
+alert("Hello, nama saya OKA FERDIANSYAH ini adalah program JS eksternal!"); 
